@@ -268,39 +268,73 @@
 
 // #region Task#22 Grade Evaluation:
 
-let gradeDetec = () => {
-    let score = 90;
-    const grade = score >= 90 ? 'A' :
-                  score >= 80 ? 'B' :
-                  score >= 70 ? 'C' :
-                  score >= 60 ? 'D' : 'F';
+// let gradeDetec = () => {
+//     let score = 90;
+//     const grade = score >= 90 ? 'A' :
+//                   score >= 80 ? 'B' :
+//                   score >= 70 ? 'C' :
+//                   score >= 60 ? 'D' : 'F';
 
-    console.log(grade);
-}
+//     console.log(grade);
+// }
 
-gradeDetec();  // "A"
-
-
-//#endregion
-
-// #region Task# 
+// gradeDetec();  // "A"
 
 
 //#endregion
-// #region Task# 
+
+// #region Task#23 Login Status
+
+// let isLoggodIn = true;
+// let statusMessage = () => {
+//     const statusMsg = isLoggodIn ? "Welcome back" : "Please log in"; 
+//     console.log(statusMsg)
+// }
+
+// statusMessage() //"Welcome back"
+
 
 
 //#endregion
-// #region Task# 
+// #region Task#24 Discount Eligibility
 
+// let isMember = true;
+// let purchaseAmount = 150;
+// let discElegibility = () => {
+//     const discount = (isMember && purchaseAmount > 100) ? purchaseAmount * 0.10 : 0;    console.log(discount)
+// }
+
+// discElegibility() //15
 
 //#endregion
-// #region Task# 
 
+// #region Task#25 Determine Max Value:
+
+// let maxValue = (a, b) => (a > b ? a : b)
+
+// console.log(maxValue( 24 , 1)) // 24 is larger
+// console.log(maxValue( 6 , 8)) // 8 is larger
+// console.log(maxValue( 200 , 20000)) // 20000 is larger
 
 //#endregion
-// #region Task# 
 
+// #region Task#26 Greeting Message:
+
+// let greet = (name) => !name ? (`Hello, guest!`) : (`Hello, ${name}!`);
+// console.log(greet('John')); // Hello, John!.
+// console.log(greet('')); // Hello, guest!.
+
+//#endregion
+
+// #region Task#27 Mapping Values:
+
+// const arrOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const newArrOfNumbers = arrOfNumbers.map(arrOfNumbers => 
+//     arrOfNumbers % 2 === 0 ? arrOfNumbers * 2 : arrOfNumbers * 3
+// );
+
+// console.log(newArrOfNumbers); // [3, 4, 9, 8, 15, 12, 21, 16, 27, 20]
 
 //#endregion
 // #region Task# 
