@@ -337,11 +337,144 @@
 // console.log(newArrOfNumbers); // [3, 4, 9, 8, 15, 12, 21, 16, 27, 20]
 
 //#endregion
-// #region Task# 
+
+// #region Task#28 Filtering Values:
+
+// const arrOfString = ["cat", "elephant", "dog", "tiger", "rat", "lion"];
+
+// const newArrOfString = arrOfString.filter(arrOfString => 
+//     arrOfString.length > 3 ? true : false
+// );
+
+// console.log(newArrOfString); // ["elephant","tiger", "lion"]
+
+//#endregion
+
+// #region Task#29 Copying an Array
+
+// let originalArray = ["elephant", "tiger", "lion"];
+// let copiedArray = [...originalArray];
+// console.log(originalArray); 
+// console.log(copiedArray);
+
+//#endregion
+
+// #region Task#30 Merging Arrays
+
+// let array1 = [1, 2, 3];
+// let array2 = ["A", "B", "C"];
+// let mergedArray = [...array1, ...array2];
+// console.log(mergedArray);
+
+//#endregion
+
+//#region Task#31 
+
 
 
 //#endregion
-// #region Task# 
+  
+//#region Task#32
+
+
+//#endregion
+  
+//#region Task#33 
+
+
+//#endregion
+  
+//#region Task#34 
+
+
+//#endregion
+  
+//#region Task#35 
+
+
+//#endregion
+  
+//#region Task#36 
+
+
+//#endregion
+  
+//#region Task#37 
+
+
+//#endregion
+  
+//#region Task#38 
+
+
+//#endregion
+  
+//#region Task#39 
+
+
+//#endregion
+  
+//#region Task#40 
+
+
+//#endregion
+  
+//#region Task#41 
+
+
+//#endregion
+  
+//#region Task#42
+
+
+//#endregion
+  
+//#region Task#43
+
+
+//#endregion
+  
+//#region Task#44 
+
+
+//#endregion
+  
+//#region Task#45 
+
+
+//#endregion
+  
+//#region Task#46 
+
+
+//#endregion
+  
+//#region Task#47 
+
+
+//#endregion
+  
+//#region Task#48 
+
+
+//#endregion
+  
+//#region Task#49 
+
+
+//#endregion
+  
+//#region Task#50 
+
+
+//#endregion
+  
+//#region Task# 
+
+
+//#endregion
+  
+//#region Task# 
 
 
 //#endregion
